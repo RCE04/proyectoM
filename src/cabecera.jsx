@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 export function Cabecera() {
     const [isNavOpen, setIsNavOpen] = useState(false);
 
-
-
     const toggleMenu = () => {
         setMenuVisible(!menuVisible);
     };
@@ -53,10 +51,10 @@ export function Cabecera() {
                             </div>
                             <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
                                 <li className="my-8 text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#f3bc04]">
-                                    <a href="#">Maderas</a>
+                                    <Link to="/madera">Maderas</Link>
                                 </li>
                                 <li className="my-8 text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#f3bc04]">
-                                    <a href="#">Sobre Nosotros</a>
+                                    <Link to="/nosotros">Sobre Nosotros</Link>
                                 </li>
                                 <li className="my-8 px-5 py-2.5 text-base font-semibold text-black border-2 border-black hover:bg-black hover:text-white transition-all duration-200 focus:bg-black focus:text-white" role="button">
                                     <a href="#">Contactanos</a>
@@ -67,8 +65,8 @@ export function Cabecera() {
 
 
                     <div className="hidden ml-auto lg:flex lg:items-center lg:justify-center lg:space-x-10">
-                        <Link to="madera" title="" className="text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#f3bc04]"> Maderas </Link>
-                        <a href="#" title="" className="text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#f3bc04]"> Sobre Nosotros </a>
+                        <Link to="/madera" title="" className="text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#f3bc04]"> Maderas </Link>
+                        <Link to="/nosotros" title="" className="text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#f3bc04]"> Sobre Nosotros </Link>
                         <div className="w-px h-5 bg-black/20"></div>
                         <a href="#" title="" className="inline-flex items-center justify-center px-5 py-2.5 text-base font-semibold text-black border-2 border-black hover:bg-black hover:text-white transition-all duration-200 focus:bg-black focus:text-white" role="button"> Contactanos </a>
                     </div>

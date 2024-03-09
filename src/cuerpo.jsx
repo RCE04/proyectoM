@@ -3,8 +3,8 @@ import Carousel from './carousel';
 
 export function Cuerpo() {
     const images = [
-        "/diseñadores.jpg",
         "/diseñoInterior.jpg",
+        "/diseñoInterior2.jpg"
     ]
     return (
         <>
