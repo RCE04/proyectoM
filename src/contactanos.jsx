@@ -1,9 +1,17 @@
+import React, { useState } from "react";
 
 import { Footer } from "./footer";
 import { Cabecera } from './cabecera';
 import { Reseñas } from "./reseñas";
 
+
+
 function Contactanos() {
+    const [tipoContraseña, setTipoContraseña] = useState('password');
+
+    const cambiarTipo = () => {
+        setTipoContraseña((prevTipo) => (prevTipo === 'password' ? 'text' : 'password'));
+    };
     return (
         <>
             <Cabecera />
@@ -13,13 +21,15 @@ function Contactanos() {
 
                 <div className="flex">
                     <label htmlFor="Contrseña">Contraseña:</label>
-                    <input type="password" id="Contraseña" />
-                    <button value={"si"} className="flex" />
+                    <input type={tipoContraseña} id="Contraseña" />
+                    <button type="button" onClick={cambiarTipo} className="flex">
+                        Cambiar Tipo
+                    </button>
                 </div>
 
                 <label htmlFor="Nombre" className="mr-5">Nombre:</label>
                 <input type="text" id="Nombre" placeholder="Nombre" />
-            </form>
+            </form >
             <Reseñas />
             <Footer />
         </>
