@@ -19,12 +19,19 @@ const Carousel = ({ images, interval = 5000 }) => {
         );
     };
     return (
+
         <div className="carousel">
+            <button onClick={prevSlide} className="carousel__btn carousel__btn--prev">
+                &lt;
+            </button>
             <img
                 src={images[activeIndex]}
                 alt={`Slide ${activeIndex}`}
                 className="carousel__img"
             />
+            <button onClick={nextSlide} className="carousel__btn carousel__btn--next">
+                &gt;
+            </button>
         </div>
     );
 };

@@ -2,6 +2,7 @@ import './App.css'
 import { Header } from './header';
 import { Reseñas } from './reseñas';
 import { Cuerpo } from './cuerpo';
+import { Footer } from "./footer";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Cuerpo />
       <Reseñas />
+      <Footer />
     </>
   );
 }
