@@ -1,18 +1,17 @@
 import './App.css'
-import { Header } from './header';
-import { Reseñas } from './reseñas';
-import { Cuerpo } from './cuerpo';
-import { Footer } from "./footer";
+import { Routes, Route } from "react-router-dom"
+import Inicio from "./inicio";
+import Madera from './madera';
 
 
 function App() {
   return (
-    <>
-      <Header />
-      <Cuerpo />
-      <Reseñas />
-      <Footer />
-    </>
+    <div className="Aplicacion">
+      <Routes>
+        <Route path="/" element={<Inicio />} />
+        <Route path='/madera' element={<Madera />} />
+      </Routes>
+    </div>
   );
 }
 

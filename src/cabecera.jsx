@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 
 export function Cabecera() {
     const [isNavOpen, setIsNavOpen] = useState(false);
+
+
 
     const toggleMenu = () => {
         setMenuVisible(!menuVisible);
@@ -12,14 +15,13 @@ export function Cabecera() {
             <div className="px-4 mx-auto sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16 lg:h-20">
                     <div className="flex-shrink-0">
-                        <a href="#" title="" className="flex">
+                        <Link to="/" title="" className="flex">
                             <img className="w-auto h-14" src="logo.jpg" alt="" />
-                        </a>
+                        </Link>
                     </div>
 
                     <h1 className='text-xl ml-5 font-bold text-[#043c54]'>Vanguardia Mueblera</h1>
 
-                    {/* Botón del menú para dispositivos móviles */}
                     <section className="MOBILE-MENU flex lg:hidden">
                         <div
                             className="HAMBURGER-ICON space-y-2"
@@ -31,7 +33,6 @@ export function Cabecera() {
                         </div>
 
 
-                        {/* Menú para dispositivos móviles */}
                         <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
                             <div
                                 className="CROSS-ICON absolute top-0 right-0 px-8 py-8"
@@ -65,9 +66,8 @@ export function Cabecera() {
                     </section>
 
 
-                    {/* Menú para pantallas grandes */}
                     <div className="hidden ml-auto lg:flex lg:items-center lg:justify-center lg:space-x-10">
-                        <a href="#" title="" className="text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#f3bc04]"> Maderas </a>
+                        <Link to="madera" title="" className="text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#f3bc04]"> Maderas </Link>
                         <a href="#" title="" className="text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#f3bc04]"> Sobre Nosotros </a>
                         <div className="w-px h-5 bg-black/20"></div>
                         <a href="#" title="" className="inline-flex items-center justify-center px-5 py-2.5 text-base font-semibold text-black border-2 border-black hover:bg-black hover:text-white transition-all duration-200 focus:bg-black focus:text-white" role="button"> Contactanos </a>
