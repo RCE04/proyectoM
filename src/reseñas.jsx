@@ -8,6 +8,7 @@ export function Reseñas() {
                     <div class="flex items-end justify-between">
                         <div class="flex-1 text-center lg:text-left">
                             <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Comentarios</h2>
+
                         </div>
 
                         <div class="hidden lg:flex lg:items-center lg:space-x-3">
