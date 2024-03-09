@@ -57,7 +57,7 @@ export function Cabecera() {
                                     <Link to="/nosotros">Sobre Nosotros</Link>
                                 </li>
                                 <li className="my-8 px-5 py-2.5 text-base font-semibold text-black border-2 border-black hover:bg-black hover:text-white transition-all duration-200 focus:bg-black focus:text-white" role="button">
-                                    <a href="#">Contactanos</a>
+                                    <Link to="/contactanos">Contactanos</Link>
                                 </li>
                             </ul>
                         </div>
@@ -68,7 +68,7 @@ export function Cabecera() {
                         <Link to="/madera" title="" className="text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#f3bc04]"> Maderas </Link>
                         <Link to="/nosotros" title="" className="text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#f3bc04]"> Sobre Nosotros </Link>
                         <div className="w-px h-5 bg-black/20"></div>
-                        <a href="#" title="" className="inline-flex items-center justify-center px-5 py-2.5 text-base font-semibold text-black border-2 border-black hover:bg-black hover:text-white transition-all duration-200 focus:bg-black focus:text-white" role="button"> Contactanos </a>
+                        <Link to="/contactanos" title="" className="inline-flex items-center justify-center px-5 py-2.5 text-base font-semibold text-black border-2 border-black hover:bg-black hover:text-white transition-all duration-200 focus:bg-black focus:text-white" role="button"> Contactanos </Link>
                     </div>
                 </div>
             </div >

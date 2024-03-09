@@ -8,7 +8,6 @@ function Inicio() {
         <>
             <Cabecera />
             <Cuerpo />
-            <Reseñas />
             <Footer />
         </>
     );

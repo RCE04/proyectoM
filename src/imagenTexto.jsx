@@ -9,7 +9,7 @@ export const ImagenTexto = ({ imageUrl, text, subtext }) => {
                 className="w-20 h-20 object-cover rounded-full mr-4"
             />
             <div>
-                <p className="text-lg font-semibold">{text}</p>
+                <p className="text-lg font-semibold text-[#018edf] underline decoration-[#f3bc04]">{text}</p>
                 <p className="text-base font-light">{subtext}</p>
             </div>
         </div>
