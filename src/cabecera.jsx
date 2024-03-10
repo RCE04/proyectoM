@@ -14,7 +14,7 @@ export function Cabecera() {
                 <div className="flex items-center justify-between h-16 lg:h-20">
                     <div className="flex-shrink-0">
                         <Link to="/" title="" className="flex">
-                            <img className="w-auto h-14" src="logo.jpg" alt="" />
+                            <img className="w-auto h-14" src="logo.png" alt="" />
                         </Link>
                     </div>
 
