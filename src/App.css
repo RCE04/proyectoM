@@ -73,3 +73,18 @@
   justify-content: space-evenly;
   align-items: center;
 }
+
+@media only screen and (max-width: 768px) {
+  .carousel {
+    height: 60vh;
+  }
+
+  .carousel__img {
+    height: 20rem;
+    width: 25rem;
+  }
+
+  .carousel__btn,{
+    display: none;
+  }
+}

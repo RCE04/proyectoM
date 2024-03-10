@@ -12,7 +12,7 @@ export function Footer() {
 
                     <div className="flex ml-16">
                         <img src="gmail.png" className="w-7 mr-2" />
-                        <a href="vanguardia@gmail.com" className="text-white flex-col items-center mr-16 pt-0.5 hover:text-[#f3bc04] hover:underline decoration-current[#f3bc04]">vanguardia@gmail.com</a>
+                        <a href="mailto:vanguardia@gmail.com" className="text-white flex-col items-center mr-16 pt-0.5 hover:text-[#f3bc04] hover:underline decoration-current[#f3bc04]">vanguardia@gmail.com</a>
                     </div>
                 </div>
 
@@ -21,7 +21,7 @@ export function Footer() {
                 <div className="md:w-1/3 w-full flex flex-col items-center mb-4 md:mb-0">
                     <div className="flex flex-col mx-16">
                         <img src="logo.png" alt="Logo" className="w-14 mx-auto" />
-                        <Link to="https://www.google.com/intl/es/gmail/about/" className="text-white  flex-col items-center mx-auto pt-0.5 hover:text-[#f3bc04] hover:underline decoration-current[#f3bc04]">Vanguardia Mueblera</Link>
+                        <Link to="/" className="text-white  flex-col items-center mx-auto pt-0.5 hover:text-[#f3bc04] hover:underline decoration-current[#f3bc04]">Vanguardia Mueblera</Link>
                     </div>
                 </div>
 
