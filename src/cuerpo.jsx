@@ -18,17 +18,17 @@ export function Cuerpo() {
             <section className="w-full md:flex gap-3 items-center mt-0">
                 <div className="w-full md:mx-8 mt-4 md:mt-0 md:w-1/2 mx-auto text-pretty">
                     <h1 className="text-2xl md:text-4xl text-[#018edf] underline decoration-[#f3bc04] font-bold mb-2 md:mb-4">Buenos artesanos</h1>
-                    <p className="text-base md:text-lg md:mb-4">Nuestros artesanos trabajan siempre buscando la perfección y el máximo detalle sin arruinar la veta de la madera</p>
+                    <p className="text-lg md:text-lg md:mb-4">Nuestros artesanos trabajan siempre buscando la perfección y el máximo detalle sin arruinar la veta de la madera</p>
                     <Link to="/madera" className="inline-flex items-center justify-center mt-4 px-4 py-2 text-base md:text-lg font-semibold text-black border-2 border-black hover:bg-[#043c54] hover:text-white transition-all duration-200 focus:bg-[#043c54] focus:text-white" role="button">Tipos de Madera</Link>
                 </div>
                 <img src='imgDetalles.jpg' className='w-full md:w-1/2 h-50 object-cover' alt="Detalles de Artesanía" />
             </section>
 
-            <section className="w-full md:flex gap-3 items-center mt-0">
-                <img src='diseñadores3.jpg' className='w-full md:w-1/2 h-50 object-cover ' />
+            <section className="w-full md:flex gap-3 items-center mt-2 md:mt-0">
+                <img src='diseñadores3.jpg' className='w-full md:w-1/2 h-50 object-cover' />
                 <div className="w-full md:mx-13 mt-4 md:mt-0 mx-auto text-pretty">
                     <h1 className="text-3xl md:text-4xl text-[#018edf] underline decoration-[#f3bc04] font-bold mb-2 md:mt-4 md:mx-10">Buenos diseñadores de interiores</h1>
-                    <p className="text-base md:text-lg md:mt-2 md:mx-10">Nuestros diseñadores siempre estarán dispuestos a ayudarte a conseguir el máximo espacio posible sin la necesidad de hacer reformas</p>
+                    <p className="text-lg md:text-lg md:mt-2 md:mx-10">Nuestros diseñadores siempre estarán dispuestos a ayudarte a conseguir el máximo espacio posible sin la necesidad de hacer reformas</p>
                     <Link to="/contactanos" title="" className="inline-flex items-center justify-center mt-4 mx-2 md:mx-10 px-4 py-2.5 text-base md:text-lg font-semibold text-black border-2 border-black hover:bg-[#043c54] hover:text-white transition-all duration-200 focus:bg-[#043c54] focus:text-white" role="button">Sobre Nosotros</Link>
                 </div>
             </section>
