@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Carousel from './carousel';
 
 export function Cuerpo() {
@@ -18,6 +19,7 @@ export function Cuerpo() {
                 <div className="w-full mx-13">
                     <h1 className="text-4xl text-[#018edf] underline decoration-[#f3bc04] font-bold mt-4 mx-14">Buenos artesanos</h1>
                     <p className="text-lg mt-2 mx-14">Nuestros artesanos trabajan siempre buscando la perfeccion y el maximo detalle sin arruinar la veta de la madera</p>
+                    <Link to="/contactanos" title="" className="inline-flex items-center justify-center ml-14 mt-4 px-5 py-2.5 text-base font-semibold text-black border-2 border-black hover:bg-[#043c54] hover:text-white transition-all duration-200 focus:bg-[#043c54] focus:text-white" role="button"> Sobre Nosotros </Link>
                 </div>
                 <img src='imgDetalles.jpg' className='w-1/2 h-50' />
             </section>
@@ -26,7 +28,8 @@ export function Cuerpo() {
                 <img src='diseñadores3.jpg' className='w-1/2 h-50' />
                 <div className="w-full mx-13">
                     <h1 className="text-4xl text-[#018edf] underline decoration-[#f3bc04] font-bold mt-4 mx-10">Buenos diseñadores de interiores</h1>
-                    <p className="text-lg mt-2 mx-10">Nuestros diseñadores siempre estaran dispuestos a ayudarte a conseguir el maximo espacio posible sin la necesidad de hacer reformas</p>
+                    <p className="text-lg mt-2 mx-10 ">Nuestros diseñadores siempre estaran dispuestos a ayudarte a conseguir el maximo espacio posible sin la necesidad de hacer reformas</p>
+                    <Link to="/contactanos" title="" className="inline-flex items-center justify-center mt-4 mx-10 px-5 py-2.5 text-base font-semibold text-black border-2 border-black hover:bg-[#043c54] hover:text-white transition-all duration-200 focus:bg-[#043c54] focus:text-white" role="button"> Sobre Nosotros </Link>
                 </div>
             </section>
 
