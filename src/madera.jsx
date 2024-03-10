@@ -20,7 +20,6 @@ function Madera() {
                 imageUrl="/cedro.jpg"
                 text="CEDRO"
                 subtext="El tipo más común de cedro es la variedad roja occidental. El cedro tiene un color rojizo , este tipo de madera es relativamente suave, tiene un grano recto y un olor ligeramente aromático. El cedro rojo occidental se usa principalmente para hacer muebles de exterior, ya que puede utilizarse en ambientes húmedos sin descomponerse. Además, tiene un precio moderado y es bastante robusto, por lo que es excelente para muebles de jardín."
-
             />
             <ImagenTexto
                 imageUrl="/acre.jpg"

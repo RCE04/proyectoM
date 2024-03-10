@@ -29,7 +29,7 @@ export function Cuerpo() {
                 <div className="w-full md:mx-13 mt-4 md:mt-0 mx-auto text-pretty">
                     <h1 className="text-3xl md:text-4xl text-[#043c54] underline decoration-[#f3bc04] font-bold mb-2 md:mt-4 md:mx-10">Buenos diseñadores de interiores</h1>
                     <p className="text-lgs md:text-lg md:mt-2 md:mx-10">Nuestros diseñadores siempre estarán dispuestos a ayudarte a conseguir el máximo espacio posible sin la necesidad de hacer reformas</p>
-                    <Link to="/contactanos" title="" className="inline-flex items-center justify-center mt-4 mx-2 md:mx-10 px-4 py-2.5 text-base md:text-lg font-semibold text-black border-2 border-black hover:bg-[#043c54] hover:text-white transition-all duration-200 focus:bg-[#043c54] focus:text-white" role="button">Sobre Nosotros</Link>
+                    <Link to="/nosotros" title="" className="inline-flex items-center justify-center mt-4 mx-2 md:mx-10 px-4 py-2.5 text-base md:text-lg font-semibold text-black border-2 border-black hover:bg-[#043c54] hover:text-white transition-all duration-200 focus:bg-[#043c54] focus:text-white" role="button">Sobre Nosotros</Link>
                 </div>
             </section>
 
