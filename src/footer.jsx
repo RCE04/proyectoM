@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export function Footer() {
     return (
-        <footer className="bg-black">
+        <footer className="bg-black mt-2 md:mt-8">
             <section className="w-full flex flex-col md:flex-row py-6">
                 <div className="md:w-1/3 w-full flex flex-col items-center mb-4 md:mb-0">
                     <div className="flex ml-16 mb-5">
@@ -18,9 +18,9 @@ export function Footer() {
 
                 <div className="w-full md:w-[2px] md:h-15 bg-white/50 mb-4 md:mb-0"></div>
 
-                <div className="md:w-1/3 w-full flex flex-col items-center mb-4 md:mb-0">
+                <div className="md:w-1/3 w-full flex flex-col items-center mb-4 md:mb-0 ">
                     <div className="flex flex-col mx-16">
-                        <img src="logo.png" alt="Logo" className="w-14 mx-auto" />
+                        <img src="logo.png" alt="Logo" className="w-10 mx-auto" />
                         <Link to="/" className="text-white  flex-col items-center mx-auto pt-0.5 hover:text-[#f3bc04] hover:underline decoration-current[#f3bc04]">Vanguardia Mueblera</Link>
                     </div>
                 </div>
