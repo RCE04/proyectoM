@@ -13,7 +13,7 @@ export function Cuerpo() {
     return (
         <>
             <div className='bg-cover bg-no-repeat bg-fixed bg-center h-[60vh] bg-[url("/prueba16.jpg")] '>
-                <h1 className="text-4xl font-extrabold text-[#043c54] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[10vh]">
+                <h1 className="text-4xl font-extrabold text-[#043c54] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[20vh] md:-translate-y-[10vh]">
                     LOS MEJORES MUEBLES DE ESPAÑA
                 </h1>
             </div >

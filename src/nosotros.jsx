@@ -12,8 +12,6 @@ function Nosotros() {
             <p className="mx-16 my-6">Con el tiempo, expande su negocio, contrata talentosos carpinteros y lleva su marca al mercado internacional a través de un sitio web. La reputación de Vanguardia Mueblera crece, atrayendo clientes de todo el mundo. La clave del éxito radica en la combinación de la artesanía tradicional con un toque moderno y el uso de maderas de alta calidad. La empresa establece alianzas internacionales, abre sucursales en ciudades importantes y adopta prácticas sostenibles en su producción.</p>
             <p className="mx-16 my-6">La historia de Vanguardia Mueblera se convirtió en un ejemplo inspirador de cómo la pasión, la calidad y la dedicación pueden llevar a un pequeño taller de carpintería a convertirse en un referente mundial. José Luis y su equipo no solo crearon muebles, sino que construyeron un legado duradero de artesanía y excelencia que perduraría a lo largo de las generaciones.</p>
 
-            {/*cambair imagenes*/}
-
             <div className="flex flex-col md:flex-row items-center justify-center">
                 <img src="detalles.jpg" className="w-full md:w-[45%] h-auto object-cover ml-1" alt="Detalles" />
                 <img src="inicios.jpg" className="w-full md:w-[45%] h-auto object-cover" alt="Inicios" />

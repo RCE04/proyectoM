@@ -50,10 +50,10 @@ export function Cabecera() {
                                 </svg>
                             </div>
                             <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
-                                <li className="my-8 text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#f3bc04]">
+                                <li className="my-8 text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#048dde]">
                                     <Link to="/madera">Maderas</Link>
                                 </li>
-                                <li className="my-8 text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#f3bc04]">
+                                <li className="my-8 text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#048dde]">
                                     <Link to="/nosotros">Sobre Nosotros</Link>
                                 </li>
                                 <li className="my-8 px-5 py-2.5 text-base font-semibold text-black border-2 border-black hover:bg-[#043c54] hover:text-white transition-all duration-200 focus:bg-black focus:text-white" role="button">
@@ -65,8 +65,8 @@ export function Cabecera() {
 
 
                     <div className="hidden ml-auto lg:flex lg:items-center lg:justify-center lg:space-x-10">
-                        <Link to="/madera" title="" className="text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#f3bc04]"> Maderas </Link>
-                        <Link to="/nosotros" title="" className="text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#f3bc04]"> Sobre Nosotros </Link>
+                        <Link to="/madera" title="" className="text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#048dde]"> Maderas </Link>
+                        <Link to="/nosotros" title="" className="text-base font-semibold text-[#043c54] transition-all duration-200 hover:text-[#048dde]"> Sobre Nosotros </Link>
                         <div className="w-px h-5 bg-black/20"></div>
                         <Link to="/contactanos" title="" className="inline-flex items-center justify-center px-5 py-2.5 text-base font-semibold text-black border-2 border-black hover:bg-[#043c54] hover:text-white transition-all duration-200 focus:bg-black focus:text-[#f3bc04]" role="button"> Contactanos </Link>
                     </div>
