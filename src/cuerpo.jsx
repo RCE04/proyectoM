@@ -12,7 +12,6 @@ export function Cuerpo() {
     ]
     return (
         <>
-            {/*Retocar imagenes y texto mas lo primero que lo segundo*/}
             <div className='bg-cover bg-no-repeat bg-fixed bg-center h-[60vh] bg-[url("/prueba16.jpg")] '>
                 <h1 className="text-4xl font-extrabold text-[#043c54] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[10vh]">
                     LOS MEJORES MUEBLES DE ESPAÑA

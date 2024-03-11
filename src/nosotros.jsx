@@ -15,7 +15,7 @@ function Nosotros() {
             {/*cambair imagenes*/}
 
             <div className="flex flex-col md:flex-row items-center justify-center">
-                <img src="imgDetalles.jpg" className="w-full md:w-[45%] h-auto object-cover ml-1" alt="Detalles" />
+                <img src="detalles.jpg" className="w-full md:w-[45%] h-auto object-cover ml-1" alt="Detalles" />
                 <img src="inicios.jpg" className="w-full md:w-[45%] h-auto object-cover" alt="Inicios" />
             </div>
 
