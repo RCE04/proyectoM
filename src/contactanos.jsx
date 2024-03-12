@@ -10,12 +10,12 @@ function Contactanos() {
     return (
         <>
             <Cabecera />
-            <form className="mx-auto my-10 border-4 p-4 md:p-8 rounded-md shadow-md w-full max-w-md">
+            <form action="/contactanos" method="post" className="mx-auto my-10 border-4 p-4 md:p-8 rounded-md shadow-md w-full max-w-md">
                 <legend className="text-xl md:text-2xl font-semibold mb-4">Pide cita</legend>
 
                 <div className="mb-4">
                     <label htmlFor="Email" className="block text-sm md:text-base font-semibold text-gray-600">Email:</label>
-                    <input type="email" id="Email" className="w-full mt-1 p-2 border rounded-md focus:outline-none focus:border-[#043c54]" />
+                    <input type="email" id="Email" className="w-full mt-1 p-2 border rounded-md focus:outline-none focus:border-[#043c54]" required />
                 </div>
 
                 <div className="mb-4">
@@ -25,7 +25,7 @@ function Contactanos() {
 
                 <div className="mb-4">
                     <label htmlFor="Telefono" className="block text-sm md:text-base font-semibold text-gray-600">Teléfono:</label>
-                    <input type="tel" id="Telefono" className="w-full mt-1 p-2 border rounded-md focus:outline-none focus:border-[#043c54]" />
+                    <input type="tel" id="Telefono" className="w-full mt-1 p-2 border rounded-md focus:outline-none focus:border-[#043c54]" required />
                 </div>
 
                 <div className="mb-4">
