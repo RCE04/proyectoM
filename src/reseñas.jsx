@@ -31,7 +31,7 @@ export function Reseñas() {
                             <div class="p-5">
                                 <div class="relative">
                                     <a href="#" title="" class="block aspect-w-4 aspect-h-3">
-                                        <img class="object-cover w-full h-full" src="diseñadores.jpg" alt="" />
+                                        <img class="object-cover w-60 h-60 md:w-24 md:h-24 rounded-full" src="persona1.jpg" alt="" />
                                     </a>
 
                                 </div>
@@ -47,26 +47,24 @@ export function Reseñas() {
                             <div class="p-5">
                                 <div class="relative">
                                     <a href="#" title="" class="block aspect-w-4 aspect-h-3">
-                                        <img class="object-cover w-full h-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-2.jpg" alt="" />
+                                        <img class="object-cover w-20 h-20 md:w-24 md:h-24 rounded-full" src="persona2.jpg" alt="" />
                                     </a>
 
                                 </div>
                                 <span class="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> Abril 04, 2020 </span>
                                 <p class="mt-5 text-2xl font-semibold">
-                                    <a href="#" title="" class="text-black"> Ho7 Tips to run your remote team faster and better. </a>
+                                    <a href="#" title="" class="text-black"> Transporte rapido y sin problemas. </a>
                                 </p>
-                                <p class="mt-4 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                                <p class="mt-4 text-base text-gray-600">La calidad del servicio no se limitó al transporte; la instalación y montaje de los muebles en mi nuevo lugar se realizaron de manera eficiente y profesional. Cada pieza llegó en perfecto estado, sin rasguños ni daños.</p>
                             </div>
                         </div>
 
                         <div class="overflow-hidden bg-white rounded shadow">
                             <div class="p-5">
                                 <div class="relative">
-                                    <a href="#" title="" class="block aspect-w-4 aspect-h-3">
-                                        <img class="object-cover w-full h-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-3.jpg" alt="" />
+                                    <a href="#" title="" class="block aspect-w-4 aspect-h-3 ">
+                                        <img class="object-cover w-20 h-20 md:w-24 md:h-24 rounded-full " src="persona3.jpg" alt="" />
                                     </a>
-
-
                                 </div>
                                 <span class="block mt-6 text-sm font-semibold tracking-widest text-gray-500 uppercase"> Mayo 12, 2020 </span>
                                 <p class="mt-5 text-2xl font-semibold">
